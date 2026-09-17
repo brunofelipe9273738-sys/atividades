@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        fieldset{
+            width: 500px;
+            margin: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <fieldset>
+    <legend>Dados pessoais</legend>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" class="nome">
+    <br>
+    <label for="ende">Endereço:</label>
+    <input type="text" id="ende" class="ende">
+    <br>
+    <label for="cit">Cidade:</label>
+    <input type="text" id="cit" class="cit">
+    <br>
+  <label for="cidade">Estado:</label>
+    <select name="cidade" id="cidade">
+        <option value="" disabled selected>Seu estado</option>
+        <option value="SP">MONTES CLAROS</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="AM">Amazônia</option>
+    </select><br><br>
+    </fieldset>
+    <fieldset>
+    <legend>Dados profissionais</legend>
+    <label for="">Natureza do Cargo</label><br>
+    <input type="radio" name="masc" id="masc">
+    <label for="masc">Gêrencia</label>
+    <input type="radio" name="masc" id="masc">
+    <label for="masc">Financeiro</label>
+    <input type="radio" name="masc" id="masc">
+    <label for="masc">Recepção</label>
+    <input type="radio" name="masc" id="masc">
+    <label for="masc">Administrativo</label>
+    <input type="radio" name="masc" id="masc">
+    <label for="masc">Juridico</label>
+    <br><br>
+    <label for="">Área de Interesse</label><br>
+    <input type="checkbox" class="gsti" id="csti" name="funcao">
+    <label for="gsti">Computação</label>
+    <input type="checkbox" class="gsti" id="csti" name="funcao">
+    <label for="gsti">Biologia</label>
+    <input type="checkbox" class="gsti" id="csti" name="funcao">
+    <label for="gsti">Meio Ambiente</label>
+    <input type="checkbox" class="gsti" id="csti" name="funcao">
+    <label for="gsti">Engenharia</label>
+    <input type="checkbox" class="gsti" id="csti" name="funcao">
+    <label for="gsti">Hitória</label>
+    <br><br>
+    <label for="mensagem">Mini-currículo</label>
+    <textarea name="mensagem" id="mensagem" rows="5" cols="40" placeholder=""></textarea><br><br>
+    <br><br>
+    
+
+    </fieldset>
+</body>
+</html>
