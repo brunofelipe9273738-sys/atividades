@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +7,23 @@
 </head>
 <body>
 
-<form action="https://sheetdb.io/api/v1/pjkor89mrlqi4"  method="post">
-    <input type="text" name = "legenda">
-        <button type="button" onclick="mostrarAlerta()">Avançar</button>
-</form>
+    <button onclick="mostrarHora()">Avançar</button>
 
     <script>
-        let legenda ="legenda"
 
-        function mostrarAlerta(){
+        function mostrarHora() {
 
-            alert('Salvar no banco de dados?');
+            let hora = 14;
+
+            if (hora < 12) {
+                alert("Bom dia!");
+            } else if (hora < 18) {
+                alert("Boa tarde!");
+            } else {
+                alert("Boa noite!");
+            }
 
         }
-
-        console.log("eu quero ir embora");
 
     </script>
 
