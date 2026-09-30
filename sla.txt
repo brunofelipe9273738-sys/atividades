@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coisas</title>
+        <style>
+        label{
+            font-weight: bold;
+            margin-top: 6px;
+        }
+
+        #bntlogin{
+            margin-top: 15px;
+            padding: 8px;
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+        fieldset{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulogeral" class="titulogeral"></h1>
+
+    <form action="">
+        <fieldset>
+        <legend>Your details</legend>
+        <label for="nome">1. Nome</label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="email">2. email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="contato">3. telefone</label>
+        <input type="tel" name="contato" id="contato">
+        
+        </fieldset>
+        <fieldset>
+        <legend>Delivery address</legend>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" rows="5" cols="40" placeholder="Digite sua mensagem aqui"></textarea>
+        
+        <label for="post">post code</label>
+        <input type="number" name="post" >
+        
+        </fieldset>
+    
+    </form>
+    
+
+</body>
+</html>

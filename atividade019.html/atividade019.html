@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+    body {
+        background-image: url("img/cristal.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        font-family: Arial;
+        margin-left: 75px;
+    }
+
+    #h1 {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    #p {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    #name2 {
+        margin-left: 0px;
+        display: inline-block;
+        width: 90px;
+    }
+
+    #name1 {
+        margin-left: 0px;
+        width: 130px;
+        height: 20px;
+    }
+
+    #last {
+        width: 130px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    #email2 {
+        margin-left: 0px;
+        display: inline-block;
+        width: 90px;
+    }
+
+    #email {
+        margin-left: 0px;
+        width: 284px;
+    }
+
+    input {
+        height: 20px;
+    }
+
+    textarea {
+        margin-left: 85px;
+        width: 270px;
+        height: 60px;
+    }
+
+    #po1{
+    margin-left: 40px;
+    width: 85px;
+}
+    #po2{
+    width: 85px;
+    }
+    #po3{
+    width: 85px;
+    }
+    #mess{
+    width: 245px;
+}
+    #mes{
+        margin-left: 36px;
+    }
+    .veri{
+        background-color: white;
+        width: 150px;
+        color: black;
+        display: flex;
+        margin-left: 120px;
+        margin-top: -20px;
+}
+</style>
+</head>
+<body>
+    <h1 id="h1">Contact form</h1>
+    <p id="p">Please fill in your informationand we`ll be sending your order in no time.</p>
+    <br><br><br>
+    <label for="name" id="name2">Your name</label>
+    <input type="text" placeholder="First Name" id="name1"> <input type="text" placeholder="Last Name" id="last">
+    <br><br>
+    <label for="email" id="email2">Your Email</label>
+    <input type="email" id="email" class="email">
+    <br><br>
+    <label for="cont">Phone*</label>
+    <input type="text" placeholder="###" id="po1"> <input type="text" placeholder="###" id="po2"> <input type="text" placeholder="###"id="po3">
+    <br><br>
+    <label for="men">Message Subject*</label>
+    <input type="text" placeholder="Other" id="mess">
+    <br><br>
+    <label for="mes">Message*</label>
+    <textarea name="mes" id="mes" rows="4" cols="40"></textarea>
+    <br><br>
+    
+    <label for="">Verificartion</label>
+    <div class="veri">
+    
+    <input type="checkbox" id="func" class="func" name="funcao">
+    <label for="func">I`m not a robot</label>
+    </div>
+    <br><br>
+</body>
+</html>
